@@ -6,6 +6,7 @@ import { useState } from "react";
 import Counter from "./components/counter";
 import ListDynamic from "./components/ListState";
 import Clock from "./components/Clock";
+import TodoAdd from "./components/TodoAdd";
 export default function Home() {
   console.log("re rendering");
 
@@ -49,7 +50,9 @@ export default function Home() {
       {/* <Counter />
 
       <ListDynamic/> */}
-  <Clock/>
+  {/* <Clock/> */}
+
+      <TodoAdd/>
 
     </div>
   )
