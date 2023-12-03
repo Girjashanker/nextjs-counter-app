@@ -5,6 +5,7 @@ import { useState } from "react";
 // import counter from "@/components/counter";
 import Counter from "./components/counter";
 import ListDynamic from "./components/ListState";
+import Clock from "./components/Clock";
 export default function Home() {
   console.log("re rendering");
 
@@ -26,7 +27,7 @@ export default function Home() {
 
   return (
     <div>
-      <button type={"button"} onClick={inc}>+</button>
+      {/* <button type={"button"} onClick={inc}>+</button>
 
       {count}
 
@@ -43,11 +44,12 @@ export default function Home() {
       <button type={"button"} onClick={changeLabel}>Change Data</button>
       <br></br>
       <br></br>
-      <br></br>
+      <br></br> */}
 
-      <Counter />
+      {/* <Counter />
 
-      <ListDynamic/>
+      <ListDynamic/> */}
+  <Clock/>
 
     </div>
   )
