@@ -7,6 +7,8 @@ import Counter from "./components/counter";
 import ListDynamic from "./components/ListState";
 import Clock from "./components/Clock";
 import TodoAdd from "./components/TodoAdd";
+import TabComponent from "./components/TabComponent";
+import "./css/Tab.css"
 export default function Home() {
   console.log("re rendering");
 
@@ -52,7 +54,10 @@ export default function Home() {
       <ListDynamic/> */}
   {/* <Clock/> */}
 
-      <TodoAdd/>
+      {/* <TodoAdd/> */}
+
+      
+      <TabComponent headers={["Tab1", "Tab2", "Tab3"]}/>
 
     </div>
   )
