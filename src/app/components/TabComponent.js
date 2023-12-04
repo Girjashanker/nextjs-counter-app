@@ -11,10 +11,14 @@ export default function TabComponent({headers, children}){
     return (
         <div>
             {
-                headers.map((titel, index)=> <div className={"tab-header"} key={index} onClick={(event) => changeHandler(index)} >{titel}</div> )
+                headers.map((titel, index)=> newFunction(index, changeHandler, titel) )
             }
 
             {children[activeTab]}
         </div>
     )
+}
+
+function newFunction(index, changeHandler, titel) {
+    return <div className={"tab-header"} key={index} onClick={(event) => changeHandler(index)}>{titel}</div>;
 }
