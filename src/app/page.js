@@ -57,8 +57,13 @@ export default function Home() {
       {/* <TodoAdd/> */}
 
       
-      <TabComponent headers={["Tab1", "Tab2", "Tab3"]}/>
+      <TabComponent headers={["Tab1", "Tab2", "Tab3"]}>
 
+      <div> Page 1</div>
+      <div> Page 2 </div>
+      <div> Page 3</div>
+
+</TabComponent>
     </div>
   )
 }
