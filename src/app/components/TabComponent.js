@@ -14,7 +14,7 @@ export default function TabComponent({headers, children}){
                 headers.map((titel, index)=> newFunction(index, changeHandler, titel) )
             }
 
-            {children[activeTab]}
+           <div> {children[activeTab]} </div>
         </div>
     )
 }
