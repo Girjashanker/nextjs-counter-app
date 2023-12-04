@@ -2,4 +2,8 @@
 {
     width: 100px;
     display: inline-block;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin-right: 5px;
+    font-weight: bold;
 }
