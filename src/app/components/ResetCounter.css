@@ -2,4 +2,6 @@
     border-radius: 10px;
     min-height: 100px;
     border: 5px solid gray;
+    max-width: 100px;
+    text-align: center;
 }

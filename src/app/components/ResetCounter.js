@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import './ResetCounter.css'
 export default function ResetCounter() {
   const [showB, setShowB] = useState(true);
   return (
