@@ -10,6 +10,7 @@ import TodoAdd from "./components/TodoAdd";
 import TabComponent from "./components/TabComponent";
 import "./css/Tab.css"
 import ResetCounter from "./components/ResetCounter";
+import ReducerCounter from "./components/ReducerCounter";
 export default function Home() {
   console.log("re rendering");
 
@@ -58,16 +59,18 @@ export default function Home() {
       {/* <TodoAdd/> */}
 
       
-      <TabComponent headers={["Tab1", "Tab2", "Tab3"]}>
-
+      {/* <TabComponent headers={["Tab1", "Tab2", "Tab3"]}> */}
+{/* 
       <div> Page 1</div>
       <div> Page 2 </div>
-      <div> Page 3</div>
+      <div> Page 3</div> */}
 
-</TabComponent>
+{/* </TabComponent> */}
 
 
-<ResetCounter/>
+{/* <ResetCounter/> */}
+
+  <ReducerCounter/>
 
     </div>
   )
