@@ -9,6 +9,7 @@ import Clock from "./components/Clock";
 import TodoAdd from "./components/TodoAdd";
 import TabComponent from "./components/TabComponent";
 import "./css/Tab.css"
+import ResetCounter from "./components/ResetCounter";
 export default function Home() {
   console.log("re rendering");
 
@@ -64,6 +65,10 @@ export default function Home() {
       <div> Page 3</div>
 
 </TabComponent>
+
+
+<ResetCounter/>
+
     </div>
   )
 }
